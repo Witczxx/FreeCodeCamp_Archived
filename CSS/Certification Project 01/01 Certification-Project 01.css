@@ -1,0 +1,42 @@
+body {
+    max-width: 450px;
+    margin-left: 20px;
+    background-color: darkgrey;
+  }
+  
+  fieldset{
+    border: 0;
+    background-color: lightgray;
+    margin: auto;
+  }
+  h1, p{
+    text-align: center;
+  }
+  
+  label, select {
+    display: block;
+  }
+  
+  input, textarea {
+    width: 98%;
+    margin-top: 5px;
+  }
+  
+  div {
+    margin-top: 20px;
+  }
+  
+  input[name="age"] {
+    width: 10%;
+    display: block;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: unset;
+  }
+  
+  label, select, input, option, div {
+    margin-bottom: 5px;
+  }
+  
+  
